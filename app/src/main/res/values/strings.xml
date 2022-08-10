@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">StarCrawler</string>
-    <string name="open">open</string>
-    <string name="close">close</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
     <string name="because">Temp</string>
     <string name="Guide">Please Choose a Destination</string>
     <string name="Date">Select a new Date</string>
@@ -20,4 +20,9 @@
     <string name="selectedDate">Selected Date: </string>
     <string name="namePlz">NameHere</string>
     <string name="Name4">Help</string>
+    <string name="helpSelected">Help Selected</string>
+    <string name="helpTitle">Help</string>
+    <string name="helpBodyMain">Simply Enter your name, and click Enter. Or Select a different optoin from the menu.</string>
+    <string name="helped">I have been helped!</string>
+    <string name="notHelped">Sorry we couldn\'t help! Good luck exploring!</string>
 </resources>

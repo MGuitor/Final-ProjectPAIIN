@@ -31,6 +31,7 @@ import androidx.appcompat.widget.Toolbar;
 import androidx.drawerlayout.widget.DrawerLayout;
 
 import com.google.android.material.navigation.NavigationView;
+import com.google.android.material.snackbar.Snackbar;
 
 import java.math.BigInteger;
 import java.util.ArrayList;
@@ -117,6 +118,26 @@ public class previous_pics extends AppCompatActivity implements NavigationView.O
                 message = getString(R.string.clickedExist);
 
                 // NEEDS FUNCTIONS
+
+                break;
+            case R.id.item4:
+                message = getString(R.string.helpSelected);
+                String helpTitle = getString(R.string.helpTitle);
+                String helpBody = getString(R.string.helpBodyMain);
+                String helped = getString(R.string.helped);
+                String notHelped = getString(R.string.notHelped);
+                AlertDialog.Builder alertDialogBuilder = new AlertDialog.Builder(previous_pics.this);
+                alertDialogBuilder.setTitle(helpTitle)
+                        .setMessage("Heres how")
+                        .setMessage(helpBody)
+                        .setPositiveButton("yes", (click, arg) -> {
+                        })
+                        .setNegativeButton("no" , (click, arg) -> {
+                            Snackbar.make(theList, notHelped, Snackbar.LENGTH_LONG).show();
+
+                        })
+                        .setView(getLayoutInflater().inflate(R.layout.list_view, null))
+                        .create().show();
 
                 break;
 

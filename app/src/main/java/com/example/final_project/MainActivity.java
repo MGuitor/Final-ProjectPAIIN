@@ -2,27 +2,33 @@ package com.example.final_project;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.ActionBarDrawerToggle;
+import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 import androidx.drawerlayout.widget.DrawerLayout;
 
+import android.content.ClipData;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
+import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
+import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
 import com.google.android.material.navigation.NavigationView;
 import com.google.android.material.navigation.NavigationView;
+import com.google.android.material.snackbar.Snackbar;
 
 public class MainActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
     EditText typeField;
     String PREF_FILE_NAME = "shared_prefs";
     SharedPreferences prefs;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -67,11 +73,15 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
 
 
 
+
+
+
     }
 
 
     @Override
     public boolean onOptionsItemSelected(@NonNull MenuItem item) {
+
         String message = null;
         switch (item.getItemId()) {
             case R.id.item1:
@@ -92,6 +102,27 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                 // NEEDS FUNCTIONS
 
                 break;
+            case R.id.item4:
+                message = getString(R.string.helpSelected);
+                String helpTitle = getString(R.string.helpTitle);
+                String helpBody = getString(R.string.helpBodyMain);
+                String helped = getString(R.string.helped);
+                String notHelped = getString(R.string.notHelped);
+                AlertDialog.Builder alertDialogBuilder = new AlertDialog.Builder(MainActivity.this);
+                alertDialogBuilder.setTitle(helpTitle)
+                        .setMessage("Heres how")
+                        .setMessage(helpBody)
+                        .setPositiveButton("yes", (click, arg) -> {
+                        })
+                        .setNegativeButton("no" , (click, arg) -> {
+                            Snackbar.make(typeField, notHelped, Snackbar.LENGTH_LONG).show();
+
+                        })
+                        .setView(getLayoutInflater().inflate(R.layout.list_view, null))
+                        .create().show();
+
+                                break;
+
 
         }
         Toast.makeText(this, message, Toast.LENGTH_LONG).show();

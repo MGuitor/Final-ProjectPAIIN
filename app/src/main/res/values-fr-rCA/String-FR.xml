@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">StarCrawler</string>
+    <string name="open">Ouvert</string>
+    <string name="close">Fermer</string>
+    <string name="because">Temp</string>
+    <string name="Guide">Veuillez choisir une destination</string>
+    <string name="Date">Sélectionnez une nouvelle date</string>
+    <string name="Name1">Page d\'accueil</string>
+    <string name="Name2">Nouvelle photo</string>
+    <string name="Name3">Vu précédemment</string>
+    <string name="mainPage">Aller à la page principale</string>
+    <string name="newPic">Vous êtes sur le point de voyager dans le temps !</string>
+    <string name="exsist">Vous n\'en avez pas assez, hein ?</string>
+    <string name="homeAlready">Rentré à la maison si tôt ??</string>
+    <string name="clickedMain">Enregistrement de l\'image…</string>
+    <string name="clickedNew">Chargement d\'une image aléatoire !</string>
+    <string name="clickedExist">Retour à la dernière photo que vous allez!</string>
+    <string name="mainpage">Bienvenue dans l\'Espace !</string>
+    <string name="newpictures">Il est temps d\'explorer %s !</string>
+    <string name="selectedDate">Date sélectionnée :</string>
+    <string name="namePlz">Nomici</string>
+    <string name="Name4">Aider</string>
+    <string name="helpSelected">Aide sélectionnée</string>
+    <string name="helpTitle">Aider</string>
+    <string name="helpBodyMain">Entrez simplement votre nom et cliquez sur Entrée. Ou Sélectionnez une option différente dans le menu.</string>
+    <string name="helped">J\'ai été aidé !</string>
+    <string name="notHelped">Désolé, nous n\'avons pas pu vous aider ! Bonne chance pour explorer !</string>
+</resources>

@@ -2,6 +2,7 @@ package com.example.final_project;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.ActionBarDrawerToggle;
+import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.widget.Toolbar;
 import androidx.drawerlayout.widget.DrawerLayout;
 import androidx.fragment.app.DialogFragment;
@@ -33,6 +34,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.google.android.material.navigation.NavigationView;
+import com.google.android.material.snackbar.Snackbar;
 
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -385,6 +387,26 @@ public class nasa_pic extends MainActivity {
                 message = getString(R.string.clickedExist);
 
                 // NEEDS FUNCTIONS
+
+                break;
+            case R.id.item4:
+                message = getString(R.string.helpSelected);
+                String helpTitle = getString(R.string.helpTitle);
+                String helpBody = getString(R.string.helpBodyMain);
+                String helped = getString(R.string.helped);
+                String notHelped = getString(R.string.notHelped);
+                AlertDialog.Builder alertDialogBuilder = new AlertDialog.Builder(nasa_pic.this);
+                alertDialogBuilder.setTitle(helpTitle)
+                        .setMessage("Heres how")
+                        .setMessage(helpBody)
+                        .setPositiveButton("yes", (click, arg) -> {
+                        })
+                        .setNegativeButton("no" , (click, arg) -> {
+                            Snackbar.make(typeField, notHelped, Snackbar.LENGTH_LONG).show();
+
+                        })
+                        .setView(getLayoutInflater().inflate(R.layout.list_view, null))
+                        .create().show();
 
                 break;
 
