@@ -392,7 +392,7 @@ public class nasa_pic extends MainActivity {
             case R.id.item4:
                 message = getString(R.string.helpSelected);
                 String helpTitle = getString(R.string.helpTitle);
-                String helpBody = getString(R.string.helpBodyMain);
+                String helpBody = getString(R.string.helpBodyPic);
                 String helped = getString(R.string.helped);
                 String notHelped = getString(R.string.notHelped);
                 AlertDialog.Builder alertDialogBuilder = new AlertDialog.Builder(nasa_pic.this);

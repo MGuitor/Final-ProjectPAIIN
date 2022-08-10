@@ -25,4 +25,6 @@
     <string name="helpBodyMain">Simply Enter your name, and click Enter. Or Select a different optoin from the menu.</string>
     <string name="helped">I have been helped!</string>
     <string name="notHelped">Sorry we couldn\'t help! Good luck exploring!</string>
+    <string name="helpBodyPic">Click on Select a Date, then select a date. Please do not go too far back or try a future date.</string>
+    <string name="helpBodyPrevious">Please select a previous entry to view it, or delete it.</string>
 </resources>

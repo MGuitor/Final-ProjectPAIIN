@@ -123,7 +123,7 @@ public class previous_pics extends AppCompatActivity implements NavigationView.O
             case R.id.item4:
                 message = getString(R.string.helpSelected);
                 String helpTitle = getString(R.string.helpTitle);
-                String helpBody = getString(R.string.helpBodyMain);
+                String helpBody = getString(R.string.helpBodyPrevious);
                 String helped = getString(R.string.helped);
                 String notHelped = getString(R.string.notHelped);
                 AlertDialog.Builder alertDialogBuilder = new AlertDialog.Builder(previous_pics.this);

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="helpBodyPic">Cliquez sur Sélectionner une date, puis sélectionnez une date. S\'il vous plaît, ne remontez pas trop loin ou n\'essayez pas une date future.</string>
+    <string name="helpBodyPrevious">Veuillez sélectionner une entrée précédente pour la visualiser ou la supprimer.</string>
+</resources>
