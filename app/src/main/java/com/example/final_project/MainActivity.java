@@ -29,6 +29,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     String PREF_FILE_NAME = "shared_prefs";
     SharedPreferences prefs;
 
+    // GIT TEST
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
