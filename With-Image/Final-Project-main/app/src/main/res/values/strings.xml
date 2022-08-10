@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Final-Project</string>
+    <string name="open">open</string>
+    <string name="close">close</string>
+    <string name="because">Temp</string>
+    <string name="Guide">Please Choose a Destination</string>
+    <string name="Date">Select a new Date</string>
+    <string name="Name1">Main Page</string>
+    <string name="Name2">New Picture</string>
+    <string name="Name3">Previously Viewed</string>
+    <string name="previously_viewed">Previously Viewed</string>
+    <string name="mainPage">Going to Main Page</string>
+    <string name="newPic">Find a new Picture</string>
+    <string name="exsist">Existing Pictures</string>
+    <string name="homeAlready">You\'re Already home</string>
+    <string name="clickedMain">You clicked on Main Page</string>
+    <string name="clickedNew">You clicked on New Picture</string>
+    <string name="clickedExist">You clicked on View Existing</string>
+    <string name="mainpage">Main Page</string>
+    <string name="newpictures">New Pictures</string>
+</resources>

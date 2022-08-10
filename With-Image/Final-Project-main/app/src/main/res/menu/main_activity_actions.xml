@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/item1"
+        android:title="@string/Name1"
+        android:icon="@drawable/ban"
+        android:orderInCategory="1"
+        app:showAsAction="always"/>
+
+    <item android:id="@+id/item2"
+        android:title="@string/Name2"
+        android:icon="@drawable/poke"
+        android:orderInCategory="5"
+        app:showAsAction="always"/>
+
+    <item android:id="@+id/item3"
+        android:title="@string/Name3"
+
+        android:orderInCategory="10"
+        app:showAsAction="never"/>
+
+</menu>

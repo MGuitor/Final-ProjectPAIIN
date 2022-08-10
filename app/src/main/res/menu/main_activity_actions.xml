@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:itemIconTint="@color/white"
+    >
+
+    <item android:id="@+id/item1"
+        android:title="@string/Name1"
+        android:icon="@drawable/save"
+        android:orderInCategory="1"
+        app:showAsAction="always"/>
+
+    <item android:id="@+id/item2"
+        android:title="@string/Name2"
+        android:icon="@drawable/load"
+        android:orderInCategory="5"
+        app:showAsAction="always"/>
+
+    <item android:id="@+id/item3"
+        android:title="@string/Name3"
+        android:orderInCategory="10"
+        app:showAsAction="always"
+        android:icon="@drawable/folder"
+        />
+
+    <item android:id="@+id/item4"
+        android:title="@string/Name4"
+        android:icon="@drawable/help"
+        android:orderInCategory="10"
+        app:showAsAction="always"
+        />
+
+</menu>

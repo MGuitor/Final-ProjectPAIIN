@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+    tools:context=".nasa_pic">
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/toolbar"
+        />
+
+    <androidx.drawerlayout.widget.DrawerLayout
+        android:id="@+id/drawer_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:openDrawer="start"
+        >
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/Date"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="50dp"
+                android:background="@color/purple_200"
+                android:text="@string/newpictures"
+
+
+                />
+
+
+
+
+            <ImageView
+                android:id="@+id/nasaView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                />
+
+            <ProgressBar
+                android:id="@+id/proBar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                style="@style/Widget.AppCompat.ProgressBar.Horizontal"/>
+
+
+        </LinearLayout>
+        <com.google.android.material.navigation.NavigationView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="start"
+            android:fitsSystemWindows="true"
+            app:headerLayout="@layout/header"
+            app:menu="@menu/main_activity_actions"
+            android:id="@+id/nav_view"/>
+    </androidx.drawerlayout.widget.DrawerLayout>
+
+
+</LinearLayout>

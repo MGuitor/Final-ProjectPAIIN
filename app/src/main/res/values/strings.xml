@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">StarCrawler</string>
+    <string name="open">open</string>
+    <string name="close">close</string>
+    <string name="because">Temp</string>
+    <string name="Guide">Please Choose a Destination</string>
+    <string name="Date">Select a new Date</string>
+    <string name="Name1">Main Page</string>
+    <string name="Name2">New Picture</string>
+    <string name="Name3">Previously Viewed</string>
+    <string name="mainPage">Going to Main Page</string>
+    <string name="newPic">You\'re about to travel through time!</string>
+    <string name="exsist">Couldn\'t get enough, huh?</string>
+    <string name="homeAlready">Headed home so soon??</string>
+    <string name="clickedMain">Saving Picture…</string>
+    <string name="clickedNew">Loading Random Picture!</string>
+    <string name="clickedExist">Back to the last picture you go!</string>
+    <string name="mainpage">Welcome to Space!</string>
+    <string name="newpictures">Time to explore %s !</string>
+    <string name="selectedDate">Selected Date: </string>
+    <string name="namePlz">NameHere</string>
+    <string name="Name4">Help</string>
+</resources>
